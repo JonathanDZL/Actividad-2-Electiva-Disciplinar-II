@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Definir la ruta en este caso "/personas" que responde a solicitudes GET
 @app.route('/personas', methods=['GET'])
-def obtener_personas():
+def nombres_personas():
 
     #Esta función de vista se ejecuta cuando se realiza una solicitud GET a '/personas'. 
     # Codigo de lista estática de nombres de personas
